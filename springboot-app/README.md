@@ -9,7 +9,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/
+git clone https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline.git/
 cd java-maven-sonar-argocd-helm-k8s-pipeline/sprintboot-app
 ```
 
