@@ -12,9 +12,8 @@ Navigate to EC2 > Instances > Launch Instance.
 Follow the steps to configure the instance.
 
 ![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/70464921-49b6-4c61-9be6-40fd2ed2d75f)
-![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/482ec5f9-7043-4d03-9421-ff4ddf4dca1b)
+![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/680aae96-4d2e-4426-aead-d5f82560a052)
 ![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/5ea4c009-3a80-4090-88fb-8ef03d0359c1)
-![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/282162ab-de3d-4ae8-8eb4-7d87eb3d1060)
 
 
 ### Step 2: Install Jenkins
