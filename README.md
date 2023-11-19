@@ -54,9 +54,8 @@ Access Jenkins dashboard.
 Install Docker Pipeline Plugin:
 
 Navigate to Manage Jenkins > Manage Plugins.
-Search for "Docker Pipeline" in the Available tab.
+Search for "Docker Pipeline" and "SonarQube Scanner" in the Available tab.
 Install the plugin and restart Jenkins.
-![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/64a29344-65c7-46c0-af26-ccbbbb5ea711)
 
 
 ### Step 4: Docker Slave Configuration
