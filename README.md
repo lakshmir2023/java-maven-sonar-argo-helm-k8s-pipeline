@@ -42,11 +42,11 @@ Add Jenkins repository key.<br>sudo wget -O /usr/share/keyrings/jenkins-keyring.
 
 <br>Login to Jenkins:
 
-Access Jenkins using the public IP and port 8080.
-Retrieve the initial admin password from the instance.<br>sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-<br>Complete the Jenkins setup, install suggested plugins.
-<br>Create Admin User:
-<br>Create the first admin user for Jenkins.
+Access Jenkins using the public IP and port 8080.Retrieve the initial admin password from the instance.
+
+<br>sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+<br>Complete the Jenkins setup, install suggested plugins.Create Admin User: Create the first admin user for Jenkins.
 
 Step 3: Install Docker Pipeline Plugin
 Log in to Jenkins:
