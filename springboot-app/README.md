@@ -66,3 +66,13 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
 
 The default username and password is admin
+
+How Jenkins will authenticate SonarQube?
+<br>Go to sonar > In profile > My Account > Security > provide token name and generate it > click on copy button
+![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/9f288b02-4d05-45cf-8e70-0642ab06383c)
+
+Go to Jenkins > Manage Jenkins > Manage Credentials > System > Global credentials > Add credentials
+
+![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/518b4c68-6017-4745-b9e0-0c67fa1f81ca)
+
+
