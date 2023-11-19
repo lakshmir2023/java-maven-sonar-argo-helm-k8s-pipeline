@@ -75,4 +75,20 @@ Go to Jenkins > Manage Jenkins > Manage Credentials > System > Global credential
 
 ![image](https://github.com/lakshmir2023/java-maven-sonar-argo-helm-k8s-pipeline/assets/141936877/518b4c68-6017-4745-b9e0-0c67fa1f81ca)
 
+Open command prompt or git bash (local terminal)
+
+Install and start minikube using docker or hyperkit
+
+minikube documentation - https://minikube.sigs.k8s.io/docs/start/
+<br>Youtube link - https://youtu.be/vZuyr9bmcks?feature=shared
+
+Start minikube 
+
+minikube start
+
+Installation of Argo CD<br>
+https://operatorhub.io/operator/argocd-operator
+
+To install Argo CD follow the given steps in operators hub.
+
 
