@@ -31,12 +31,12 @@ java -version
 
 Install Jenkins:
 
-Add Jenkins repository key.<br>curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
-  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+Add Jenkins repository key.<br>sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
   
 <br>Add Jenkins repository to sources list.<br>echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-  https://pkg.jenkins.io/debian binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null 
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
   
 <br>Update and install Jenkins.<br>sudo apt-get update<br>sudo apt-get install jenkins
 
