@@ -38,7 +38,7 @@ Add Jenkins repository key.<br>sudo wget -O /usr/share/keyrings/jenkins-keyring.
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
   
-<br>Update and install Jenkins.<br>sudo apt-get update<br>sudo apt-get install jenkins
+<br>Update and install Jenkins.<br>sudo apt-get update<br>sudo apt-get install jenkins -y
 
 <br>Login to Jenkins:
 
